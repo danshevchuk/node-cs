@@ -29,6 +29,10 @@ When the mouse is over an empty space in Nodes Editor Window, open context menu 
 
 <img src="https://user-images.githubusercontent.com/31962621/42377655-d2599ab0-812c-11e8-9176-d4b5d31d49d5.PNG">
 
+A new Node will be created. Note that its public variables (or private tagged with [SerializeField] attribute) will be displayed in Unity's Inspector. By default, Nodes have none of those.
+
+<img src="https://user-images.githubusercontent.com/31962621/42382091-e4175ac6-813b-11e8-8a4a-3166536399cc.PNG">
+
 You can modify the context menu of Nodes Window by modifying its `DrawContextMenu()` method.
 
 <img src="https://user-images.githubusercontent.com/31962621/42377876-d6514892-812d-11e8-84be-f0306d9a8dd0.PNG">
@@ -40,6 +44,8 @@ Context menus of Nodes and Transitions can be modified the same way, by modifyin
 #### Connect Nodes
 Hover the mouse over a Node from which the Transition should go and open it's context menu by clicking the right mouse button. You should see a Transition, represented by a line with an arrow in a middle of it. While you see the line, click on any Node, except from the one that initialized the Transition. That's it. You have successfully connected the nodes. Congratulations!
 
+<img src="https://user-images.githubusercontent.com/31962621/42382167-1f885358-813c-11e8-83a1-cecbb72bd828.PNG">
+<img src="https://user-images.githubusercontent.com/31962621/42382210-44c4703e-813c-11e8-9e52-153a72feda52.PNG">
 <img src="https://user-images.githubusercontent.com/31962621/42377803-8ded9768-812d-11e8-8a43-adc26f9a55f6.PNG">
 
 ### Shortcuts
